@@ -12,9 +12,9 @@
 
 
 const secondPerHour = 3600;
-let hours = Number(prompt('Enter how many hours do you need?'))
-let seconds = `${hours} hours = ` + (hours * secondPerHour) + ' seconds'
-alert(seconds);
+let hours = Number(prompt('Enter how many hours do you need?'));
+let seconds = hours * secondPerHour;
+alert(`${hours} hours = ${seconds} seconds`);
 
 //Task 3
 
